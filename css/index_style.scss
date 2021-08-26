@@ -29,13 +29,37 @@
       transform: translateY(0);
     }
   }
-
-  p {
-    font-size: 14px;
-  }
 }
 
 .container {
   margin: 40px 20px;
   line-height: 1.8;
+}
+
+.middle_nav {
+  margin: 22px 0 32px;
+}
+
+.middle_nav a {
+  letter-spacing: 0.01;
+  margin-right: 20px;
+  text-decoration: underline;
+  color: #C32D4D;
+}
+
+#profile_img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  float: left;
+  margin: 0 10px 14px 0;
+}
+
+.profile p {
+  font-size: 14px;
+}
+
+picture img{
+  margin-top: 26px;
 }

@@ -7,7 +7,7 @@ header {
 .header_container img {
   width: 110px;
   height: 16px;
-  margin: 15px; 
+  margin: 15px;
 }
 
 
@@ -109,12 +109,6 @@ header {
   text-decoration: none;
 }
 
-.category-home a {
-  color: #EF90A4;
-  text-decoration: none;
-}
-
-
 /*三本線を動かす*/
 #nav-open.active span {
   -webkit-transform: translateY(8px) rotate(-45deg);
@@ -132,4 +126,9 @@ header {
 #nav-open.active span:after {
   -webkit-transform: translateY(-16px) rotate(45deg);
   transform: translateY(-16px) rotate(90deg);
+}
+
+/* ハンバーガーメニューで現在いるページの色を変える  */
+#nav-content .active{
+  color: #EF90A4;
 }
